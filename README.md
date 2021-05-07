@@ -12,7 +12,7 @@ b. Direct download from the Cypress official website.
 
 Here we are installing cypress installed through node.js
 
-In order to check if it is already present
+In order to check if it is already present.
 
 > node --version or node -v
 
