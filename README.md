@@ -48,3 +48,4 @@ npm install -g npm
 ## Step 4: Open the Cypress folder
 
 Open the folder on your editor, and make test cases under Integration --> Examples# e2e_tests
+# e2e_tests
