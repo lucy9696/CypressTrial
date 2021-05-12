@@ -43,9 +43,34 @@ To check the version of cypress
 
 To update the version use,
 
-npm install -g npm
+> npm install -g npm
 
-## Step 4: Open the Cypress folder
+## Step 4: Creating Test Cases
 
-Open the folder on your editor, and make test cases under Integration --> Examples# e2e_tests
-# e2e_tests
+In order to create new test cases, open the folder on your editor, and make test cases under Integration --> Examples  
+
+# Step 5: Running Cypress on Test Runner
+
+To open on cypress App: Run  
+
+> /node_modules/.bin/cypress open
+
+To run all tests on Terminal. Run
+
+> ./node_modules/.bin/cypress run. 
+
+To run all tests on UI Level in terminal
+
+> ./node_modules/.bin/cypress run --headed
+                            
+To run a specific Test case, give the relative path. For eg: Run
+
+> ./node_modules/.bin/cypress run spec --"cypress/integration/examples/SignUpEmail.js"
+
+To run on a specific Browser.
+
+>  ./node_modules/.bin/cypress run --browser chrome
+
+# For more info
+
+    REFER: https://docs.cypress.io/guides/guides/command-line#cypress-run
