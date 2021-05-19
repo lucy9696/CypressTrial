@@ -1,0 +1,5 @@
+{
+    "baseUrl": "https://ypsilon-staging.de/en/",
+    "defaultCommandTimeout": 2000,
+    "video": true
+  }

@@ -1,0 +1,23 @@
+{
+  "name": "steadytest",
+  "version": "1.0.0",
+  "description": "Generating Packeg.json file for E2E Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "anetluciya"
+  },
+  "keywords": [
+    "steady"
+  ],
+  "author": "Anet Luciya",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@testing-library/cypress": "^7.0.6",
+    "cypress": "^7.3.0"
+  }
+}
